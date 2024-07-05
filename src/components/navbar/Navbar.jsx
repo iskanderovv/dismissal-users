@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <Container>
       <nav className='flex justify-between h-[80px] items-center'>
-        <Link to='/' className='text-2xl font-semibold'>Xodimlar</Link>
-        <Link to='/dismissal' className='text-xl flex gap-2'>
-          <AiOutlineUserDelete className="text-[crimson] cursor-pointer text-2xl items-center" />
+        <Link to='/' className='text-2xl font-semibold text-black'>Xodimlar</Link>
+        <Link to='/dismissal' className='text-xl flex gap-2 text-black'>
+          <AiOutlineUserDelete className="text-[crimson] cursor-pointer text-2xl items-center " />
           Ishdan bo'shatilganlar
         </Link>
       </nav>
